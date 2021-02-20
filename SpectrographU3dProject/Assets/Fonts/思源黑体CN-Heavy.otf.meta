@@ -11,7 +11,10 @@ TrueTypeFontImporter:
   fontName: Source Han Sans CN
   fontNames:
   - Source Han Sans CN
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 747933c01c72d814c8ce5e764ad6205b, type: 3}
+  - {fileID: 12800000, guid: 53181c3353062fb48bcd271185d10d37, type: 3}
+  - {fileID: 12800000, guid: 05d23b879fd7d7844b9a1372fef67e32, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

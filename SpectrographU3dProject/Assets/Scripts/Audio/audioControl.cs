@@ -6,7 +6,7 @@ public class audioControl : MonoBehaviour
 {
     public AudioClip music;
     static public AudioSource audioSource;
-    private bool endFlag;
+    //private bool endFlag = false;
     static public bool isPause;
     static public float musicLength;
     static public float musicTime;
@@ -20,7 +20,6 @@ public class audioControl : MonoBehaviour
         audioSource.clip = music;
         isPause = true;
         musicLength = music.length;
-        endFlag = false;
     }
 
     // Update is called once per frame
